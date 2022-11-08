@@ -1,0 +1,45 @@
+@import './variables';
+form{
+        
+    display: flex;
+flex-direction: column;
+padding: 30px;
+gap: 20px;
+
+
+
+}
+.formInput{
+    input{
+        padding: 15px 0px 15px 10px;
+    border-radius: 5px;
+    border: 1px solid $grayish-blue;
+    width: calc(100% - 10px);
+    }
+    
+   
+}
+.btn-primary{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid $grayish-blue;
+    background-color: $green;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .2s;
+    &:hover{
+        cursor: pointer;
+        opacity: .7;
+    }
+}
+small{
+    margin-top: -17px;
+    text-align: center;
+    color: $grayish-blue;
+    font-size: .6rem;
+    span{
+        color: $red;
+    font-weight: 700;
+    }
+}

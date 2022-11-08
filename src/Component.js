@@ -1,5 +1,6 @@
 import React from "react";
 import './_component.scss';
+import Form from "./Form";
 export default function Component(){
     return(
         <div className="Component">
@@ -23,14 +24,7 @@ export default function Component(){
                             <div className="container-offer__text"><b>Try it free 7 days</b> then $20/mo. thereafter</div>
                         </div>
                         <div className="container-form">
-                            <form>
-                                <input type="text" placeholder="First Name"/>
-                                <input type="text" placeholder="Last Name"/>
-                                <input type="email" placeholder="Email Address"/>
-                                <input type="password" placeholder="Password"/>
-                                <input type="submit" value="CLAIM YOUR FREE TRIAL" className="btn-primary"/>
-                                <small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
-                            </form>
+                            <Form/>
                         </div>
                     </div>
                 </div>
